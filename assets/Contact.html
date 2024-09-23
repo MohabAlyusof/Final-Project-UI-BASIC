@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Garten-Eden.css" />
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/4c84a15a45.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="head">
+      <div class="first-div">
+        <a href="Garten-Eden.html"
+          ><img src="./Images/Download.jpeg" alt="logo"
+        /></a>
+        <a href="Garten-Eden.html">
+          <h2>Garten Eden</h2>
+        </a>
+      </div>
+      <div class="navbar">
+          <ul>
+            <li>
+              <a href="Garten-Eden.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="menu.html"><i class="fa fa-clone"></i>Menu<i class="fas fa-caret-down"></i></a>
+              <div class="dropdown__menu">
+                <ul>
+                    <li><a href="#">Appetizer</a></li>
+                    <li><a href="#">Main Course</a></li>
+                    <li><a href="#">Dessert</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="Reservation.html"><i class="fa fa-users"></i>Reservation</a>
+            </li>
+            <li>
+              <a href="About.html"><i class="fa fa-user"></i>About</a>
+            </li>
+            <li>
+              <a href="Contact.html"><i class="fa fa-phone"></i>Contact</a>
+            </li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("navbar");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+          </script>
+      </div>
+    </header>
+   
+    <footer>
+        <div>
+            <h2>Opening Hours</h2>
+            <p>Monday - Friday: 11:30 - 14:00 and 17:30 - 22:00</p>
+            <p>Saturday - Sunday: 11:30 - 22:00</p>
+        </div>
+        <div>
+            <h2>Contact</h2>
+            <p>Phone: 03991 747-0</p>
+            <p>Email:info@schlosshotel-klink.de</p>
+        </div>
+        <div>
+            <h2>Address</h2>
+            <p>Seestraße 1, 17192 Klink, Germany</p>
+        </div>
+        <div>
+            <p>© 2024 Garten Eden</p>  
+        </div>
+    </footer>
+  </body>
+</html>
