@@ -155,11 +155,11 @@ main {
 }
 .sec1 h2 {
   margin-bottom: 50px;
-  font-size: 7rem;
+  font-size: 5rem;
   color: var(--color-quaternary);
 }
 .sec1 p {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--color-quaternary);
 }
 
