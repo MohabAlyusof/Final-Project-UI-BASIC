@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Garten-Eden.css" />
+    <title>GARTEN EDEN</title>
+    <script
+      src="https://kit.fontawesome.com/4c84a15a45.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="head">
+      <div class="first-div">
+        <a href="Garten-Eden.html"
+          ><img src="../Images/Download.WebP" alt="logo"
+        /></a>
+        <a href="Garten-Eden.html">
+          <h2>Garten Eden</h2>
+        </a>
+      </div>
+      <div id="navbar" class="navbar">
+        <ul>
+          <li>
+            <a href="Garten-Eden.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="menu.html"
+              ><i class="fa fa-clone"></i>Menu<i class="fas fa-caret-down"></i
+            ></a>
+            <div class="dropdown__menu">
+              <ul>
+                <li><a href="Appetizer.html">Appetizer</a></li>
+                <li><a href="MainCourse.html">MainCourse</a></li>
+                <li><a href="Dessert.html">Dessert</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="Reservation.html"
+              ><i class="fa fa-users"></i>Reservation</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-1x"></i>
+      </a>
+    </header>
+    <main>
+      <div class="sec1">
+        <div>
+          <h2>Enjoy Our Delicious Meal</h2>
+          <p>
+            Let your taste buds be pampered in our elegant restaurant or on our
+            terrace with a unique view of Lake Müritz. The stylish ambience of
+            the "Garden of Eden" restaurant ensures an enjoyable break. Fresh
+            seasonal, regional and Mediterranean-inspired delicacies are served
+          </p>
+          <div class="but">
+            <button>
+              <a href="menu.html">Our Menu</a>
+            </button>
+          </div>
+        </div>
+        <div class="sec2">
+          <img
+            src="../Images/burger.WebP"
+            alt="burger"
+          />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+          <h2>Opening Hours</h2>
+          <p><i class="fa-solid fa-calendar-days"></i> Monday - Friday: 11:30 - 14:00 and 17:30 - 22:00</p>
+          <p><i class="fa-solid fa-calendar-days"></i> Saturday - Sunday: 11:30 - 22:00</p>
+      </div>
+      <div>
+          <h2>Contact</h2>
+          <p><i class="fa fa-phone"></i> Phone: 03991 747-0</p>
+          <p><i class="fa-regular fa-envelope"></i> Email:info@schlosshotel-klink.de</p>
+      </div>
+      <div>
+          <h2>Address</h2>
+          <p><i class="fa-solid fa-location-dot"></i> Seestraße 1, 17192 Klink, Germany</p>
+      </div>
+      <div>
+          <p>© 2024 Garten Eden</p>  
+      </div>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navbar");
+      if (x.style.display === "navbar") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "navbar";
+      }
+    }
+  </script>
+  </body>
+</html>
