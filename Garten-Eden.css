@@ -18,7 +18,7 @@
 }
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../Images/restaurant-garteneden-n.WebP);
+    url(./Images/restaurant-garteneden-n.WebP);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -512,7 +512,7 @@ footer p {
 /* start main-menu */
 .menu {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../Images/ent.WebP) no-repeat center center/cover;
+    url(./Images/ent.WebP) no-repeat center center/cover;
 }
 
 .menu1 {
@@ -565,7 +565,7 @@ span {
   align-items: flex-end;
 }
 .card1 {
-  background-image: url(../Images/card1.WebP);
+  background-image: url(./Images/card1.WebP);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -578,7 +578,7 @@ span {
 }
 
 .card2 {
-  background-image: url(../Images/card2.WebP);
+  background-image: url(./Images/card2.WebP);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -590,7 +590,7 @@ span {
   grid-area: 1/2;
 }
 .card3 {
-  background-image: url(../Images/card3.WebP);
+  background-image: url(./Images/card3.WebP);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -640,19 +640,19 @@ img {
   background-position: center;
 }
 .cards1 div:nth-child(1) {
-  background-image: url(../Images/carpaccio.WebP);
+  background-image: url(./Images/carpaccio.WebP);
 }
 .cards1 div:nth-child(2) {
-  background-image: url(../Images/caprese.WebP);
+  background-image: url(./Images/caprese.WebP);
 }
 .cards1 div:nth-child(3) {
-  background-image: url(../Images/Tabula.WebP);
+  background-image: url(./Images/Tabula.WebP);
 }
 .cards1 div:nth-child(4) {
-  background-image: url(../Images/bruchetta.WebP);
+  background-image: url(./Images/bruchetta.WebP);
 }
 .cards1 div:nth-child(5) {
-  background-image: url(../Images/yalanji.WebP);
+  background-image: url(./Images/yalanji.WebP);
 }
 .cards2 p {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
@@ -669,19 +669,19 @@ img {
   background-position: center;
 }
 .cards2 div:nth-child(1) {
-  background-image: url(../Images/entrecote.WebP);
+  background-image: url(./Images/entrecote.WebP);
 }
 .cards2 div:nth-child(2) {
-  background-image: url(../Images/Maispoularde.WebP);
+  background-image: url(./Images/Maispoularde.WebP);
 }
 .cards2 div:nth-child(3) {
-  background-image: url(../Images/masgouf.WebP);
+  background-image: url(./Images/masgouf.WebP);
 }
 .cards2 div:nth-child(4) {
-  background-image: url(../Images/lammruecken.WebP);
+  background-image: url(./Images/lammruecken.WebP);
 }
 .cards2 div:nth-child(5) {
-  background-image: url(../Images/dorade.WebP);
+  background-image: url(./Images/dorade.WebP);
 }
 .cards3 p {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
@@ -698,19 +698,19 @@ img {
   background-position: center;
 }
 .cards3 div:nth-child(1) {
-  background-image: url(../Images/card3.WebP);
+  background-image: url(./Images/card3.WebP);
 }
 .cards3 div:nth-child(2) {
-  background-image: url(../Images/Kaeseplatte-1.WebP);
+  background-image: url(./Images/Kaeseplatte-1.WebP);
 }
 .cards3 div:nth-child(3) {
-  background-image: url(../Images/tiramisu.WebP);
+  background-image: url(./Images/tiramisu.WebP);
 }
 .cards3 div:nth-child(4) {
-  background-image: url(../Images/basbusa.WebP);
+  background-image: url(./Images/basbusa.WebP);
 }
 .cards3 div:nth-child(5) {
-  background-image: url(../Images/affogato-web-1.WebP);
+  background-image: url(./Images/affogato-web-1.WebP);
 }
 .cont span {
   font-size: 6rem;
@@ -722,7 +722,7 @@ img {
 
 .reserv {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../Images/adam.WebP) no-repeat center center/cover;
+    url(./Images/adam.WebP) no-repeat center center/cover;
   background-color: var(--color-primary);
 }
 .reservation {
